@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const NAV_LINKS = [
-  { label: "about", href: "#about" },
+  { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
-  { label: "projects", href: "#projects" },
-  { label: "experience", href: "#experience" },
-  { label: "contact", href: "#contact" },
+  { label: "Projects", href: "#projects" },
+  { label: "Experience", href: "#experience" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const STYLES = `

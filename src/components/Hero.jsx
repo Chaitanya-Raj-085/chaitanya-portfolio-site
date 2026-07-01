@@ -179,7 +179,7 @@ function Hero() {
 
           <div className="flex flex-wrap items-center gap-3 pt-2">
             <a
-              href="https://drive.google.com/file/d/1jywj5hTcmV_mrR-wcEn6DMQnIszMEF2w/view?usp=sharing"
+              href={ABOUT.ResumeLink}
               target="_blank"
               rel="noopener noreferrer"
               className="cr-mono cr-btn-primary inline-flex items-center gap-2 px-5 py-2.5 rounded-md text-sm font-medium"
@@ -189,7 +189,7 @@ function Hero() {
             </a>
 
             <a
-              href="https://github.com/Chaitanya-Raj-085"
+              href={ABOUT.GithubLink}
               target="_blank"
               rel="noopener noreferrer"
               className="cr-mono cr-btn-secondary inline-flex items-center gap-2 px-5 py-2.5 rounded-md text-sm font-medium"
@@ -201,7 +201,7 @@ function Hero() {
 
           <div className="flex items-center gap-5 pt-1">
             <a
-              href="https://www.linkedin.com/in/chaitanya-raj-16180621b/"
+              href={ABOUT.LinkedInLink}
               target="_blank"
               rel="noopener noreferrer"
               className="cr-icon-link"
@@ -210,14 +210,14 @@ function Hero() {
               <FaLinkedin size={20} />
             </a>
             <a
-              href="mailto:chaitanyaraj085@gmail.com"
+              href={ABOUT.MailLink}
               className="cr-icon-link"
               aria-label="Email"
             >
               <SiGmail size={20} />
             </a>
             <a
-              href="https://leetcode.com/u/CR_22/"
+              href={ABOUT.LeetCodeLink}
               target="_blank"
               rel="noopener noreferrer"
               className="cr-icon-link"
